@@ -177,7 +177,7 @@ print(df_compare)
 import pandas as pd
 from tcia_utils import nbia
 
-# Re-defining df in case the previous cell was not executed in the current session
+
 collection = "CMB-MML"
 clinical_data = nbia.getSeries(collection = collection)
 df = pd.DataFrame(clinical_data)
